@@ -726,7 +726,7 @@ textarea {
 }
 
 .nav .home {
-  background: url(/source/img/nav/home.svg) no-repeat center;
+  background: url(../img/nav/home.svg) no-repeat center;
 }
 
 .nav .stactics {
