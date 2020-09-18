@@ -1102,6 +1102,11 @@ main {
   background: #ffffff;
 }
 
+.today__task h3 {
+  text-align: start;
+  padding: 1.637em 0 0 1.875em;
+}
+
 .today__task ul {
   display: -webkit-box;
   display: -ms-flexbox;
