@@ -1,0 +1,135 @@
+  
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 268px;
+    box-shadow: 0 4px 10px #00000033;
+
+    .aside__header {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(77deg, rgb(253, 82, 114) 0%, rgb(234, 109, 84) 100%);
+    }
+    
+    .aside__menu {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .aside__link {
+        display: flex;
+        justify-content: center;
+        width: 80px;
+        height: 47px;
+    }
+    
+    .aside__link--users {
+        background: url(/source/img/aside/users.svg) center center no-repeat;
+    }
+    
+    .aside__link--chat {
+        background: url(/source/img/aside/chat-icon.svg) center center no-repeat;
+    }
+    
+    .aside__link--like {
+        background: url(/source/img/aside/like.svg) center center no-repeat;
+    }
+
+    .chat__users {
+        background-color: #ffffff;
+    }
+
+    .profile__name {
+        padding: 0.25em 0;
+    }
+
+    .profile__name h4 {
+        font-size: calc(10px + 0.4vw);
+        color: #777777;
+        
+    }
+
+    .profile__name h5 {
+        font-size: calc(10px + 0.137vw);
+        color: #BFBFBF;
+        padding-top: 0.312em;
+    }
+
+    .profile-menu__info {
+        display: flex;
+    }
+
+    .profile-menu__info img {
+        padding-right: 1.062em;
+    }
+
+    ul {
+        padding: 0 1.125em;
+    }
+        
+    li {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #F1F1F1;
+        padding: 1.25em 0;
+    }
+            
+    .chat__botton--messages {
+        width: 24px;
+        height: 20px;
+        background: url(/source/img/aside/chat-icon.svg) center center no-repeat;
+        border: none;
+        outline: none;
+        margin-top: 0.75em;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .chat__botton--messages:hover {
+        width: 25px;
+        height: 20px;
+        background-size: cover;
+    }      
+}
+
+.aside__form {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #F1F1F1;
+    border-bottom: 1px solid #F1F1F1;
+    padding: 0.937em 0;
+    background: #FCFCFC;
+
+    .search__text {
+        width: 170px;
+        border: none;
+        border-bottom: 1px solid #E9E9E9;
+    }
+
+    .search__text::placeholder {
+        font-weight: 300;
+        font-size: calc(8px + 0.07vw);
+        color: #C0C0C0;
+    }
+
+    .search__submit {
+        width: 20px;
+        height: 20px;
+        margin: 0 0.625em;
+        background: url(/source/img/aside/aside-zoom.svg) center center no-repeat;
+        border: none;
+        cursor: pointer;
+    }
+
+    .search__reset {
+        width: 20px;
+        height: 20px;
+        margin-right: 0.473em;
+        background: url(/source/img/aside/aside-pensil.svg) center center no-repeat;
+        border: none;
+        cursor: pointer;
+    }
+}
+    

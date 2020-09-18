@@ -1,0 +1,57 @@
+.featured__companys {
+    background-color: #FFFFFF;
+    width: 273px;
+    height: 229px;
+  }
+
+  .featured__companys h2 {
+    padding-top: 1.812em;
+    font-size: calc(15px + 0.1vw);
+    color: #777777;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+  }
+
+  .footer__link {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.812em;
+  }
+
+  
+  .footer__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 20px;
+    margin-right: 0.812em;
+  }
+
+  .footer__rdio {
+    margin-left: 1.937em;
+    margin-bottom: 1em;
+    background: linear-gradient(0deg, #6A5BB4,#C28BE5);
+  }
+
+  .footer__css {
+    background: linear-gradient(0deg, #4DBDC4, #6FEACC);
+  }
+
+  .footer__deviantart {
+    background: linear-gradient(0deg, #B3717A, #F7CCAE);
+  }
+
+  .footer__xing {
+    margin-left: 31px;
+    background: linear-gradient(0deg, #8B4EB5, #7E92E5);
+  }
+
+  .footer__vimeo {
+    background: linear-gradient(0deg, #578DE7, #40CFE0);
+  }
+
+  .footer__vk {
+    background: linear-gradient(0deg, #F59083, #FBD78C);
+  }
