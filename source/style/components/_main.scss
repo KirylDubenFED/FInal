@@ -50,7 +50,7 @@ main {
   height: 62px;
   margin-left: 1.25em;
   margin-bottom: 1.25em;
-  background: url(/source/img/main/line-graphic.png) center center no-repeat;
+  background: url(../img/main/line-graphic.png) center center no-repeat;
 }
 
 .graph__months {
@@ -98,7 +98,7 @@ main {
     .monthly__points {
       width: 5px;
       height: 18px;
-      background: url(../../img/header/header-ellipse.png) center center no-repeat;
+      background: url(../img/header/header-ellipse.png) center center no-repeat;
       }
   }
 }
@@ -161,6 +161,9 @@ main {
 .revenue__course {
   display: flex;
   justify-content: center;
+  font-size: calc(8px + 0.35vw);
+  font-family: 'Lato', sans-serif;
+  color: #BFBFBF;
 }
 
 /*============Revenue========*/
@@ -179,8 +182,11 @@ main {
   background-color: #ffffff;
    
   & h2 {
-    font-size: calc(16px + 0.1vw);
+    font-size: calc(10px + 0.3vw);
     text-align: start;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #777777;
   }
 
   .container {
@@ -253,9 +259,13 @@ main {
   padding: 1.25em;
   background: #ffffff;
 
-  h3 {
+    & h3 {
+    font-size: calc(10px + 0.3vw);
     text-align: start;
-  }
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #777777;
+    }
 
   ul {
     display: flex;
@@ -292,7 +302,7 @@ main {
         width: 17px;
         height: 17px;
         border: none;
-        background: url(../../img/main/btn-ok.png);
+        background: url(../img/main/btn-ok.png);
         }
 
         h3 {
@@ -316,7 +326,7 @@ main {
 
           .task__time::before {
             margin-right: 0.312em;
-            content: url(/source/img/main/clock.svg);
+            content: url(../img/main/clock.svg);
           }
       }
   }
@@ -345,6 +355,14 @@ main {
   justify-content: space-between;
   background-color: #fff;
   box-shadow: 0 0 10px #00000033;
+  
+& h2 {
+  font-size: calc(10px + 0.3vw);
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: #777777;
+}
 
   .graphic {
     display: flex;
@@ -467,12 +485,20 @@ main {
 }
 
 .shipments h2 {
-  font-size: calc(10px + 0.15vw);
+  font-size: calc(10px + 0.3vw);
   text-align: center;
   padding-top: 1.937em;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
   color: #777777;
+}
+
+.progress p {
+  font-size: calc(14px + 0.5vw);
+  color:#8743B1;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+
 }
 
 .foto__map {

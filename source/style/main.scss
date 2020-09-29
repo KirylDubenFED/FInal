@@ -2,11 +2,13 @@
 @import './config/_reset';
 @import './config/_variables';
 @import './config/_mixins';
+@import './config/_media';
 @import './components/_header';
 @import './components/_navigation';
 @import './components/_main';
 @import './components/_aside';
 @import './components/_footer';
+
 
 /*font-family: 'Dancing Script', cursive;
 font-family: 'Lato', sans-serif;*/
@@ -38,4 +40,7 @@ ul{
     text-align: center;
     background-color: rgb(228, 224, 224);
 }
+
+
+
 

@@ -21,7 +21,7 @@
         margin: auto;
         font-family: 'Dancing Script', cursive;
         color: #FC6367;
-        font-size: calc(20px + 2vw);
+        font-size: calc(18px + 2vw);
     }
 
     &__link {
@@ -54,16 +54,16 @@
     }
 
     .settings {
-        background: url(/source/img/nav/settings.svg) no-repeat center;
+        background: url(../img/nav/settings.svg) no-repeat center;
     }
 
     .information {
-        background: url(/source/img/nav/information.svg) no-repeat center;  
+        background: url(../img/nav/information.svg) no-repeat center;  
     }
 
     .button {
         margin-top: 45em;
-        background: url(/source/img/nav/button.svg) no-repeat center;   
+        background: url(../img/nav/button.svg) no-repeat center;   
     }
         
     &__link:hover {
