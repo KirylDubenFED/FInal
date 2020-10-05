@@ -806,7 +806,7 @@ main {
   width: 100%;
 }
 
-.left {
+.content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1214,7 +1214,7 @@ main {
   content: url(../img/main/clock.svg);
 }
 
-.right {
+.today {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
