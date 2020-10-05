@@ -1580,6 +1580,7 @@ aside .chat__users {
 }
 
 aside .profile__name {
+  text-align: start;
   padding: 0.25em 0;
 }
 
