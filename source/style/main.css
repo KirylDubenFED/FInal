@@ -1476,7 +1476,7 @@ main {
 .texas__pointer {
   position: absolute;
   z-index: 10;
-  background: url(/source/img/main/point.png);
+  background: url(../img/main/point.png);
   width: 15px;
   height: 21px;
   top: 129px;
@@ -1486,7 +1486,7 @@ main {
 .alabama__pointer {
   position: absolute;
   z-index: 10;
-  background: url(/source/img/main/point.png);
+  background: url(../img/main/point.png);
   width: 15px;
   height: 21px;
   top: 127px;
