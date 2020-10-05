@@ -1423,7 +1423,7 @@ main {
   z-index: 5;
 }
 
-.pointer__1 {
+.nevada__pointer {
   position: absolute;
   z-index: 10;
   background: url(/source/img/main/point.png);
@@ -1433,7 +1433,7 @@ main {
   left: 49px;
 }
 
-.pointer__2 {
+.minnesota__pointer {
   position: absolute;
   z-index: 10;
   background: url(/source/img/main/point.png);
@@ -1443,7 +1443,7 @@ main {
   left: 123px;
 }
 
-.pointer__3 {
+.pennsilvania__pointer {
   position: absolute;
   z-index: 10;
   background: url(/source/img/main/point.png);
@@ -1453,7 +1453,7 @@ main {
   left: 177px;
 }
 
-.pointer__4 {
+.colorado__pointer {
   position: absolute;
   z-index: 10;
   background: url(/source/img/main/point.png);
@@ -1463,7 +1463,7 @@ main {
   left: 88px;
 }
 
-.pointer__5 {
+.arizona__pointer {
   position: absolute;
   z-index: 10;
   background: url(/source/img/main/point.png);
@@ -1473,7 +1473,7 @@ main {
   left: 59px;
 }
 
-.pointer__6 {
+.texas__pointer {
   position: absolute;
   z-index: 10;
   background: url(/source/img/main/point.png);
@@ -1483,7 +1483,7 @@ main {
   left: 106px;
 }
 
-.pointer__7 {
+.alabama__pointer {
   position: absolute;
   z-index: 10;
   background: url(/source/img/main/point.png);
