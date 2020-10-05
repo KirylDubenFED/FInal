@@ -1583,12 +1583,12 @@ aside .profile__name {
   padding: 0.25em 0;
 }
 
-aside .profile__name h4 {
+aside .profile__name p {
   font-size: calc(10px + 0.4vw);
   color: #777777;
 }
 
-aside .profile__name h5 {
+aside .profile__name span {
   font-size: calc(10px + 0.137vw);
   color: #BFBFBF;
   padding-top: 0.312em;
